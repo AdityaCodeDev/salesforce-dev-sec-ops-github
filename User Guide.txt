@@ -1,13 +1,24 @@
-User Story - US-2894
-    Create a Trigger on Case Object
-    Handler Class of the Trigger should also be created.
+
 
 Branches - Are isolated places as a playground in our local systems.
 > git branch <name>
-Note : If you are on the "main" branch and if you are creating a "branch develop"
-then all your files and folders will be copied from the "main" branch to "develop"
+Note : If you are on the "master" branch and if you are creating a "branch develop"
+then all your files and folders will be copied from the "madter" branch to "develop"
 branch.
 
 Switch to "develop" branch
 > git checkout develop
 
+There are 2 branches "develop" and "master". Both branches have same files unless we have commited
+any file. Note: LWC components are available in the "develop" branch and not 
+on "master" branch
+
+
+User Story - US-2894. 
+    Create a new branch using develop branch. 
+    Create and Checkout branch in single command
+> git ceckout -b US-2894  //Note: -b means it is a
+
+User Story - US-2894
+    Create a Trigger on Case Object
+    Handler Class of the Trigger should also be created.
