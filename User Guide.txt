@@ -27,3 +27,10 @@ Merge your "develop" branch with "US-2894" branch locally
 > "develop" is parent as it wants files from 
 "US-2894" branch.
 >Switch to parent branch.
+
+
+Suppose you are working in the file from local machine and someone is 
+working on same file from remote.
+Steps-> on local machine - 
+> git pull origin master
+> git pull origin develop
