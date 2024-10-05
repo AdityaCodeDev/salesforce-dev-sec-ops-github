@@ -42,4 +42,7 @@ $RECYCLE.BIN/
 # Python Salesforce Functions
 **/__pycache__/
 **/.venv/
-**/venv/
+**/venv/ 
+
+#Salesforce Scripts
+MD_README.md
