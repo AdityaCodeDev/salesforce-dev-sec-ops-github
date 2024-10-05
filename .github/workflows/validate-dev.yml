@@ -12,14 +12,7 @@ jobs:
    steps:
      - run: echo "This is my first Job"
        name: "First Job Message"
-     - name: Checkout Code
-       uses: actions/checkout@v4.1.7
-       with:
-         fetch-depth: 0
-     - name: npm install
-       run: npm install
-     - name: Install Salesforce CLI
-       run: npm install @salesforce/cli --global
+     
  clean-up:
    runs-on: ubuntu-latest
    steps:
