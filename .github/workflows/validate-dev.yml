@@ -12,6 +12,12 @@ jobs:
    steps:
      - run: echo "This is my first Job"
        name: "First Job Message"
+     - name : Checkout Code
+       uses : actions/checkout@v4.1.7
+       with : 
+          fetch-depth: 0
+     - name : npm install
+       run : npm install 
      
  clean-up:
    runs-on: ubuntu-latest
