@@ -27,7 +27,7 @@ jobs:
             ## SSL Certificate [OPENSSL]
 
      - name: Authorize with Salesforce org
-       run: sf org login jwt --username aditya@devsecops.com --jwt-key-file assests/server.key --client-id 3MVG9VMBZCsTL9hkCctb7D9mQeHiWGc7MPgKqbEJSfgpFyYqY8E.4Gq5e7xdvCViCYAtMPFLr09HCa3.6GIMG --set-default --alias ci-org --instance-url https://login.salesforce.com
+       run: sf org login jwt --username aditya@devsecops.com --jwt-key-file assets/server.key --client-id 3MVG9VMBZCsTL9hkCctb7D9mQeHiWGc7MPgKqbEJSfgpFyYqY8E.4Gq5e7xdvCViCYAtMPFLr09HCa3.6GIMG --set-default --alias ci-org --instance-url https://login.salesforce.com
      - name: Print User Information
        run: sf org display user -o ci-org
       
