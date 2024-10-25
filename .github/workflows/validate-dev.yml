@@ -7,6 +7,7 @@ on:
     paths:
       - 'force-app/**'
     branches:
+      - develop
       - feature/*
       - hotfix/*
       - bugfix/*
