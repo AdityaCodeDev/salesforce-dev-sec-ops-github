@@ -6,10 +6,18 @@ on:
   push:
     paths:
       - 'force-app/**'
+    branches:
+      - feature/*
+      - hotfix/*
+      - bugfix/*
   pull_request:
     types: [opened, synchronize, reopened, edited]
     paths:
       - 'force-app/**'
+    branches: 
+      - main
+      - uat
+      - develop
 
 jobs:
  build-and-deploy: ## Name of the Job
